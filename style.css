@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: green; */
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    /* width: 40%; */
+}
+
+.number label{
+    margin-bottom: 1rem;
+}
+
+.logo{
+    border: 2px solid green;
+    border-radius: 1rem;
+    width: 7rem;
+    height: 5rem;
+    margin: 1rem 0;
+}
