@@ -91,11 +91,11 @@ const getValueInput = () =>{
                     document.getElementById("logo").src = "./images/multiLinks_logo.png";
                   break;
                 default:
-                    console.log(`This is not a Nigerian Line.`);
+                    alert("Please enter a valid number.");
             }
       }
     } else{
-        alert("Please enter a valid number")
+        alert("Please enter a valid number.")
     }
 
     
